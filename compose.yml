@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://files02.tchspt.com/down/tiny11_2311_x64.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
